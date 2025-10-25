@@ -1,0 +1,17 @@
+{
+    "accounts": [
+        {
+           "org": {
+                "domain": "mybank.com",
+                "sfin-url": "https://sfin.mybank.com"
+            },
+            "id": "2930002",
+            "name": "Savings",
+            "currency": "USD",
+            "balance": "100.23",
+            "available-balance": "75.23",
+            "balance-date": 978366154,
+            "transactions": []
+        }
+    ]
+}

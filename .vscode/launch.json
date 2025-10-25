@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "about",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "cmd",
+            "args": ["about"]
+        },{
+            "name": "info",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "cmd",
+            "args": ["info"],
+            "env": {"SF_CLAIM": "https://bogus.url"}
+        },{
+            "name": "claim",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "cmd",
+            // claim is the demo claim from SimpleFin docs
+            "args": ["claim", "-c", "aHR0cHM6Ly9icmlkZ2Uuc2ltcGxlZmluLm9yZy9zaW1wbGVmaW4vY2xhaW0vZGVtbw=="]
+        }
+    ]
+}
